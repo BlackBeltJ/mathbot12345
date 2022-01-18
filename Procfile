@@ -1,1 +1,2 @@
-web: gunicorn gettingstarted.wsgi
+
+web: gunicorn hello2:app --log-file -
