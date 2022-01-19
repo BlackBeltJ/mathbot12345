@@ -9,7 +9,8 @@ import math
 
 
 TOKEN = os.getenv("TOKEN")
-token = TOKEN
+
+# token = TOKEN
 
 client = discord.Client()
 
