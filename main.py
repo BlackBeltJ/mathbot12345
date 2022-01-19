@@ -7,16 +7,22 @@ import json
 import random
 import math 
 
-from token import TOKEN
 
+TOKEN = os.getenv("TOKEN")
+
+# token = TOKEN
+
+client = discord.Client()
+
+
+# from token import TOKEN
 
 # def read_token():
  # with open("token.env", "r") as f:
  #   lines = f.readlines()
  #   return lines[0].strip()
 
-token = TOKEN
-client = discord.Client()
+
 
 
 
