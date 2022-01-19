@@ -24,9 +24,6 @@ colorama==0.4.4
 coloredlogs==15.0.1
 cookiecutter==1.7.3
 cryptography==36.0.1
-
-
-
 debugpy==1.5.1
 decorator==5.1.1
 defusedxml==0.7.1
@@ -36,6 +33,9 @@ distlib==0.3.4
 dj-database-url==0.5.0
 Django==4.0.1
 django-heroku==0.3.1
+
+dnspython==2.2.0
+
 docutils==0.17.1
 entrypoints==0.3
 executing==0.8.2

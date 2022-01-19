@@ -7,23 +7,6 @@ import random
 import math 
 
 
-#---------- hello.py ---------#
-import os
-import logging
-from flask import Flask
-
-
-
-app = Flask(__name__)
-logging.basicConfig(level=logging.DEBUG)
-
-@app.route('/')
-def hello():
-    logging.debug("saying hello")
-    return 'Hello world '
-#------------ hello.py ---------#
-
-
 # my_secret = os.environ['TOKEN']
 
 def read_token():
