@@ -1,7 +1,6 @@
 # Hello!
 
-
-Comment
+web: gunicorn hello2:app --log-file -
 
 cython==0.29.12
 pywin32==303
