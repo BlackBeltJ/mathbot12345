@@ -1,3 +1,4 @@
+from posix import environ
 import discord
 import time
 import os
@@ -6,15 +7,15 @@ import json
 import random
 import math 
 
+from token import TOKEN
 
-# my_secret = os.environ['TOKEN']
 
-def read_token():
-  with open("token.env", "r") as f:
-    lines = f.readlines()
-    return lines[0].strip()
+# def read_token():
+ # with open("token.env", "r") as f:
+ #   lines = f.readlines()
+ #   return lines[0].strip()
 
-token = read_token()
+token = TOKEN
 client = discord.Client()
 
 
