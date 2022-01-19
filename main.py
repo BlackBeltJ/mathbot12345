@@ -9,8 +9,7 @@ import math
 
 
 TOKEN = os.getenv("TOKEN")
-
-# token = TOKEN
+token = TOKEN
 
 client = discord.Client()
 
@@ -55,4 +54,4 @@ async def on_message(message):
       await message.channel.send(quote)
 
 
-client.run(TOKEN)
+client.run(token)
