@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\env"
+    "\\gettingstarted",
+    "\\token"
   ],
-  "SelectedNode": "\\requirements.txt",
+  "SelectedNode": "\\token",
   "PreviewInSolutionExplorer": false
 }

@@ -1,11 +1,15 @@
 import discord
+# import discord.py
 import os
 import requests
 import json
 import random
 import math 
-from replit import db 
-from keep_alive import keep_alive
+import db
+
+
+# from replit import db 
+# from keep_alive import keep_alive
 my_secret = os.environ['TOKEN']
 
 client = discord.Client()
