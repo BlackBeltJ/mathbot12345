@@ -55,4 +55,4 @@ async def on_message(message):
       await message.channel.send(quote)
 
 
-client.run(token)
+client.run(TOKEN)
