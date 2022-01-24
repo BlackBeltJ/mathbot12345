@@ -1,5 +1,6 @@
 import os
-
+import discord 
+import random 
 # import time
 # import requests
 # import random
@@ -7,9 +8,7 @@ import os
 
 
 token = os.getenv("TOKEN")
-print("token is " + token)
-
-print("Hello")
+print(token)
 
 
 
