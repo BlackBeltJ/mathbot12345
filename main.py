@@ -1,6 +1,6 @@
 import os
 import discord 
-import random 
+# import random 
 # import time
 # import requests
 # import random
@@ -8,10 +8,10 @@ import random
 
 
 token = os.getenv("TOKEN")
-# print(token)
+print(token)
 
 
-client = discord.Client()
+# client = discord.Client()
 
 
 
