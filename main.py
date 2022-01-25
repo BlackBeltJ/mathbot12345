@@ -8,18 +8,11 @@ import random
 
 
 token = os.getenv("TOKEN")
-print(token)
+# print(token)
 
 
+client = discord.Client()
 
-###### client = discord.Client()
-
-#def read_token():
-#   with open(".env", "r") as f:
-#      lines = f.readlines()
-#      return lines[0].strip()
-
-# token = read_token()
 
 
 # def get_quote():
