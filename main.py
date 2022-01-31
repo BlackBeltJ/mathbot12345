@@ -11,6 +11,7 @@ token = os.getenv("TOKEN")
 print(token)
 
 print("Hello")
+print("hi")
 
 # client = discord.Client()
 
