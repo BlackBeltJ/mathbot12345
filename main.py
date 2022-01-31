@@ -10,6 +10,7 @@ import discord
 token = os.getenv("TOKEN")
 print(token)
 
+print("Hello")
 
 # client = discord.Client()
 
