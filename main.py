@@ -5,13 +5,16 @@ import discord
 # import requests
 # import random
 # import math 
+import dotenv
+from dotenv import load_dotenv
 
 
-token = os.getenv("TOKEN")
+load_dotenv()
+token = os.getenv('TOKEN')
 print(token)
 
+
 print("Hello")
-print("hi")
 
 # client = discord.Client()
 
