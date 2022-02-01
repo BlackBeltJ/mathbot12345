@@ -3,12 +3,12 @@ import logging
 from flask import Flask
 
 # new
-import dotenv
-from dotenv import load_dotenv
+# import dotenv
+# from dotenv import load_dotenv
 # new
-load_dotenv()
+# load_dotenv()
 # new
-token = os.getenv('TOKEN2')
+# token = os.getenv('TOKEN2')
 
 
 app = Flask(__name__)
@@ -17,4 +17,4 @@ logging.basicConfig(level=logging.DEBUG)
 @app.route('/')
 def hello():
     logging.debug("saying hello")
-    return 'Hello world ' + token # new + token 
+    return 'Hello world ' # + token # new + token 
