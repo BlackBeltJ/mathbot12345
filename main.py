@@ -1,9 +1,9 @@
 import os
 import discord
-import random 
-import json
-import time
-import requests
+#import random 
+#import json
+#import time
+#import requests
 
 from dotenv import load_dotenv
 
