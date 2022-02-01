@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 # new
 load_dotenv()
 # new
-token = os.getenv('TOKEN')
+token = os.getenv('TOKEN2')
 
 
 app = Flask(__name__)
