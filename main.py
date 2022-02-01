@@ -5,11 +5,13 @@ import json
 import time
 import requests
 # import math 
-import dotenv
-from dotenv import load_dotenv
 
 
-load_dotenv()
+#import dotenv
+#from dotenv import load_dotenv
+
+
+#load_dotenv()
 token = os.getenv('TOKEN')
 
 # print(token)
