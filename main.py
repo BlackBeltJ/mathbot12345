@@ -35,16 +35,15 @@ def get_quote():
 async def on_message(message):
     if message.author == client.user:
          return
+    msg = message.content
 
-     msg = message.content
-
-     if msg.startswith("$calc"):
+    if msg.startswith("$calc"):
        await message.channel.send('calcualting...')
 
-     if msg.startswith('$hello'):
+    if msg.startswith('$hello'):
          await message.channel.send('Hello!')
 
-     if msg.startswith('$inspire'):
+    if msg.startswith('$inspire'):
        quote = get_quote()
        await message.channel.send(quote)
 
