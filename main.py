@@ -4,6 +4,8 @@ import discord
 #import json
 #import time
 #import requests
+import dotenv
+
 
 from dotenv import load_dotenv
 
