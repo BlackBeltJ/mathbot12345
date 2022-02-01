@@ -133,7 +133,7 @@ pyrsistent==0.18.0
 pytest==6.2.5
 pytest-cov==3.0.0
 python-dateutil==2.8.2
-python-dotenv @ file:///C:/users/black/onedrive/desktop/python-dotenv-0.19.2.tar.gz
+python-dotenv==0.19.2
 python-lsp-black==1.0.1
 python-lsp-jsonrpc==1.0.0
 python-lsp-server==1.3.3
