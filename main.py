@@ -1,5 +1,5 @@
 import os
-import discord 
+import discord
 import random 
 import json
 import time
